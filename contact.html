@@ -10,16 +10,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./style.css">
 
-    <title>Hello, world!</title>
+    <title>Contacts</title>
 </head>
-
+<!-- This is the header contains navbar with links to the different pages of the websites. -->
 <body>
     <header>
-        <div
-            class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-            <h5 class="my-2 p-2 mx-1 mr-md-auto font-weight-normal text- text-primary">Erik Adames</h5>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom box-shadow">
+            <h5 class="my-2 p-2 mx-1 mr-md-auto bg-dark text-primary">Erik Adames</h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-primary border-right" href="./index.html">About Me</a>
                 <a class="p-2 text-primary border-right" href="./portfolio.html">Portfolio</a>
@@ -27,40 +26,40 @@
             </nav>
         </div>
     </header>
-    <!-- NEW ROW that contains the contact Form -->
+
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 border margin:auto">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 border bg-dark margin:auto text-primary">
                     <h1>Contact <span class="border-bottom"></span> </h1>
                     <form>
-                        <div class="form-group">
+                        <div class="form-group text-primary">
                             <label for="formGroupExampleInput">Name </label>
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-primary">
                             <label for="exampleFormControlInput1">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
                                 placeholder="name@example.com">
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
+                        <div class="form-group text-primary">
+                            <label for="exampleFormControlTextarea1 ">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-primary btn-lg ">Submit</button> </div>
+                            <button type="button" class="btn btn-dark btn-lg text-primary">Submit</button> </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </main>
 
-
     <footer>
-        <p>
-            &copy; Copyright
-        </p>
+        <div class="fixed-bottom">
+            <p>
+                &copy; Copyright
+            </p>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
