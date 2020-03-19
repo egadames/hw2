@@ -36,10 +36,10 @@ https://egadames.github.io/hw2/
 
 ### Screenshot
 
-![alt text](./Images/about_shout.jpg "Screenshot of About Me page")
+![About](./Images/about_shout.jpg "Screenshot of About Me page")
 
-![alt text](./Images/portfolio_shout.jpg "Screenshot of Portfolio page")
+![Portfolio](./Images/portfolio_shout.jpg "Screenshot of Portfolio page")
 
-![alt text](./Images/contact_shout.jpg "Screenshot of Contact page")
+![Contact](./Images/contact_shout.jpg "Screenshot of Contact page")
 
 
